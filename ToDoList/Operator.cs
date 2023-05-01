@@ -38,7 +38,7 @@ namespace ToDoList
         }
         public string OutList()
         {
-            return $"1:{toDo[0]}\n2: {toDo[1]}\n3: {toDo[2]}\n4: {toDo[3]}\n5: {toDo[4]}\n6:{toDo[5]}\n7: {toDo[6]}\n8: {toDo[7]}\n9: {toDo[8]}\n10: {toDo[9]}";
+            return $"1: {toDo[0]}\n2: {toDo[1]}\n3: {toDo[2]}\n4: {toDo[3]}\n5: {toDo[4]}\n6:{toDo[5]}\n7: {toDo[6]}\n8: {toDo[7]}\n9: {toDo[8]}\n10: {toDo[9]}";
         }
     }
 }
