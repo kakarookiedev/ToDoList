@@ -22,14 +22,14 @@ namespace ToDoList
             string activity = Console.ReadLine();
             if (activity != null)
             {
-                toDo[line] = activity;
+                toDo[line - 1] = activity;
             }else
             {
                 Console.WriteLine("INPUT VALID ACTIVITY BELOW: ");
                 activity = Console.ReadLine();
                 if (activity != null)
                 {
-                    toDo[line] = activity;
+                    toDo[line - 1] = activity;
                 }
                 
             }
